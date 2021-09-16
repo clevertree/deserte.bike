@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+}
+
+a {
+    color: #67a5b9;
+    text-decoration: none;
+}
+
+
+header {
+}
+
+header img {
+    width: 100%;
+
+}
+.slideshow {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.slideshow img {
+    display: none;
+    width: 100%;
+}
+
+.slideshow img.active {
+    display: block;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
